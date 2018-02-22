@@ -66,7 +66,7 @@ int main() {
 	sf::Vector2i screenDimensions(800, 600);
 
 	sf::RenderWindow window;
-	window.create(sf::VideoMode(screenDimensions.x, screenDimensions.y), "Chat");
+	window.create(sf::VideoMode(screenDimensions.x, screenDimensions.y), ("Chat (" + user_name + ")"));
 
 	sf::Font font;
 	if (!font.loadFromFile("comicSans.ttf")) {
